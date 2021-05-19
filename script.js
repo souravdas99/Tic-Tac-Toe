@@ -3,9 +3,9 @@ let gameActive = true;
 let currentPlayer = 'X';
 let gameState = ['','','','','','','','',''];
 
-let gameWinner = () => `${currentPlayer} has won!`;
-let gameDrawn = () => `Game drawn`;
-let gamePlayerTurn = () => `This is ${currentPlayer}'s turn`;
+let gameWinner = () => `${currentPlayer} HAS WON!`;
+let gameDrawn = () => `GAME DRAWN`;
+let gamePlayerTurn = () => `THIS IS ${currentPlayer}'S TURN`;
 
 function handleCellSelected(){
 

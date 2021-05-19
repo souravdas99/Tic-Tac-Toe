@@ -38,17 +38,21 @@ h1{
     background: #33ccff;
     border: 2px solid white;
 }
+.cell:active{
+    background: #ff72b9;
+    border: 2px solid white;
+}
 .game-status{
     background-color:#fd5aac ;
     font-family: sans-serif;
     font-size: 30px;
     text-align: center;
-    width: 250px;
+    width: 280px;
     height:40px;
-    margin-top: 30px;
-    margin-left: 650px;
+    margin-top: 20px;
+    margin-left: 630px;
     text-align: center;
-    padding:4px 10px 0px 10px;
+    padding:6px 10px 0px 10px;
     text-decoration: bold;
     border:5px solid white;
 }
@@ -65,4 +69,8 @@ h1{
     background:  #33ccff ;
     font-size: 32px;
     padding: -50px;
+}
+.restart:active{
+    background:  #ff72b9 ;
+    
 }
